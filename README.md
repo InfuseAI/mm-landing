@@ -1,9 +1,23 @@
-# Next.js + Tailwind CSS Example
+# How to contribute
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Prerequisite
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+* node version: `> 14`
+* yarn
 
-## publish to ghpage
+```sh
+$ cd your-project-path
+$ yarn install
+```
 
-`make`
+## Development
+
+```sh
+yarn dev
+```
+
+## Publish to ghpage
+
+```sh
+yarn release
+```
