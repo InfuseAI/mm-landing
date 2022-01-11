@@ -6,9 +6,6 @@ import {MenuIcon, XIcon} from '@heroicons/react/outline'
 import CFUrl from './cf'
 
 const navigation = [
-  {name: 'PrimeHub', href: 'https://www.infuseai.io/products/primhub-ai-platform'},
-  {name: 'FAQ', href: 'https://github.com/InfuseAI/primehub-aws-cdk/blob/main/FAQ.md'},
-  {name: 'Documentation', href: 'https://docs.primehub.io/'},
 ]
 
 export default function Hero () {
@@ -104,11 +101,10 @@ export default function Hero () {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl pr-8">
-                <span className="block xl:inline">Full-Featured ML Platform</span>{' '}
-                <span className="block text-indigo-600 xl:inline">in 30 Minutes</span>
+                <span className="block xl:inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                PrimeHub makes AI workflow 10X faster, on your own infrastructure.
+                Tortor consequat id porta nibh venenatis cras sed. Lectus sit amet est placerat in egestas erat imperdiet sed.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -116,7 +112,7 @@ export default function Hero () {
                     href={CFUrl}
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10"
                   >
-                    1-Click Install on AWS
+                    Subscribe
                   </a>
                 </div>
               </div>

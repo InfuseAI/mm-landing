@@ -8,7 +8,7 @@ export default function Home () {
   return (
     <div>
       <Head>
-        <title>1-click Install for PrimeHub</title>
+        <title>Malo</title>
         <link rel="shortcut icon" href="/PrimeHub_icon_32.png" />
         <meta property="og:website" content="website" />
         <meta property="og:image" content="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"/>
