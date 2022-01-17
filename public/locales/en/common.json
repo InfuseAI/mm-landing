@@ -1,0 +1,19 @@
+{
+  "title": "PipeRider",
+  "logo": "/PrimeHub_icon.svg",
+  "section-hero-title": "Section Hero Title",
+  "section-hero-img": "/hero-image.jpg",
+  "section-hero-img-alt": "Hero Image Alt",
+  "section-hero-content": "Section Hero Content: Tortor consequat id porta nibh venenatis cras sed. Lectus sit amet est placerat in egestas erat imperdiet sed.",
+  "section-hero-action": "Subscribe",
+  "section-secondary-title": "Section Secondary Title",
+  "section-secondary-img": "./richard-horvath-cPccYbPrF-A-unsplash.jpg",
+  "section-secondary-img-alt": "Second Image Alt",
+  "section-secondary-content": "Section Secondary Content: Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Posuere lorem ipsum dolor sit amet. Sodales ut etiam sit amet nisl purus. Feugiat nibh sed pulvinar proin gravida hendrerit.",
+  "section-secondary-action": "Section Secondary Action",
+  "section-third-title": "Section Third Title",
+  "section-third-img": "/sunder-muthukumaran-n7eJHQwefeI-unsplash.jpg",
+  "section-third-img-alt": "Third Image Alt",
+  "section-third-content": "Section Third Content: Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Posuere lorem ipsum dolor sit amet. Sodales ut etiam sit amet nisl purus. Feugiat nibh sed pulvinar proin gravida hendrerit.",
+  "section-third-action": "Section Third Action"
+}

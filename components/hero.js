@@ -2,13 +2,14 @@
 import {Fragment} from 'react'
 import {Popover, Transition} from '@headlessui/react'
 import {MenuIcon, XIcon} from '@heroicons/react/outline'
-
 import CFUrl from './cf'
+import { useTranslation } from 'next-i18next';
 
 const navigation = [
 ]
 
 export default function Hero () {
+  const { t } = useTranslation('common');
   return (
     <div className="relative overflow-hidden" style={{backgroundColor: '#f3f7fe'}}>
       <div className="max-w-7xl mx-auto">
@@ -29,10 +30,10 @@ export default function Hero () {
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <a href="https://www.infuseai.io/">
-                      <span className="sr-only">InfuseAI</span>
+                      <span className="sr-only">{t('title')}</span>
                       <img
                         className="h-8 w-auto sm:h-10"
-                        src="/PrimeHub_icon.svg"
+                        src={t('logo')}
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -101,10 +102,10 @@ export default function Hero () {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl pr-8">
-                <span className="block xl:inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                <span className="block xl:inline">{t('section-hero-title')}</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Tortor consequat id porta nibh venenatis cras sed. Lectus sit amet est placerat in egestas erat imperdiet sed.
+                {t('section-hero-content')}
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -112,7 +113,7 @@ export default function Hero () {
                     href={CFUrl}
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10"
                   >
-                    Subscribe
+                    {t('section-hero-action')}
                   </a>
                 </div>
               </div>
@@ -123,8 +124,8 @@ export default function Hero () {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="/hero-image.jpg"
-          alt="Full Featured ML Platform in 30 Minutes"
+          src={t('section-hero-img')}
+          alt={t('section-hero-img-alt')}
         />
       </div>
     </div>

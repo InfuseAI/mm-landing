@@ -5,9 +5,12 @@ import {
   UserGroupIcon
 } from '@heroicons/react/outline'
 
+import { useTranslation } from 'next-i18next';
+
 import CFUrl from './cf'
 
 export default function Coffee () {
+  const { t } = useTranslation('common');
   return (
     <div className="relative pt-16 pb-32 overflow-hidden">
       <div aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100" />
@@ -24,10 +27,10 @@ export default function Coffee () {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  {t('section-secondary-title')}
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Posuere lorem ipsum dolor sit amet. Sodales ut etiam sit amet nisl purus. Feugiat nibh sed pulvinar proin gravida hendrerit.
+                  {t('section-secondary-content')}
                 </p>
                 <div className="mt-6">
                   <a
@@ -35,7 +38,7 @@ export default function Coffee () {
                     className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
                     style={{backgroundColor: "#365abd"}}
                   >
-                    Gravida quis
+                  {t('section-secondary-action')}
                   </a>
                 </div>
               </div>
@@ -45,8 +48,8 @@ export default function Coffee () {
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="./richard-horvath-cPccYbPrF-A-unsplash.jpg"
-                alt="Inbox user interface"
+                src={t('section-secondary-img')}
+                alt={t('section-secondary-img-alt')}
               />
             </div>
           </div>
@@ -65,10 +68,10 @@ export default function Coffee () {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Nunc faucibus a pellentesque sit amet porttitor. 
+                  {t('section-third-title')}
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Vitae ultricies leo integer malesuada nunc vel risus. Duis ultricies lacus sed turpis. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio.
+                  {t('section-third-content')}
                 </p>
                 <div className="mt-6">
                   <a
@@ -76,7 +79,7 @@ export default function Coffee () {
                     className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
                     style={{backgroundColor: "#365abd"}}
                   >
-                    Blandit
+                    {t('section-third-action')}
                   </a>
                 </div>
               </div>
@@ -86,8 +89,8 @@ export default function Coffee () {
             <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="/sunder-muthukumaran-n7eJHQwefeI-unsplash.jpg"
-                alt="Customer profile user interface"
+                src={t('section-third-img')}
+                alt={t('section-third-img-alt')}
               />
             </div>
           </div>
