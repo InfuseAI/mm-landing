@@ -159,7 +159,7 @@ export default function Coffee () {
                     id="mc-embedded-subscribe-form"
                     name="mc-embedded-subscribe-form"
                     target="_blank"
-                    novalidate
+                    noValidate
                   >
                     <div className="mt-4">
                       <input

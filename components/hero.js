@@ -115,7 +115,7 @@ export default function Hero () {
                     id="mc-embedded-subscribe-form"
                     name="mc-embedded-subscribe-form"
                     target="_blank"
-                    novalidate
+                    noValidate
                   >
                     <input type="email" name="EMAIL" placeholder='Email'
                     className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow mr-3"
