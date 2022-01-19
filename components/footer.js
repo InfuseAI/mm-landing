@@ -58,6 +58,7 @@ const footerNavigation = {
 
 
 export default function Footer () {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-gray-50" aria-labelledby="footer-heading" style={{backgroundColor: '#f3f7fe'}}>
       <h2 id="footer-heading" className="sr-only">
@@ -124,7 +125,7 @@ export default function Footer () {
             ))}
           </div>
           <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-            &copy; 2021 InfuseAI. All rights reserved.
+            &copy; {currentYear} InfuseAI. All rights reserved.
           </p>
         </div>
       </div>
