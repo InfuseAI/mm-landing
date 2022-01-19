@@ -36,7 +36,7 @@ export default function Coffee () {
                   <a
                     href={CFUrl}
                     className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                    style={{backgroundColor: "#FFB258"}}
+                    style={{backgroundColor: "#9244f3"}}
                   >
                   {t('section-secondary-action')}
                   </a>
@@ -77,7 +77,7 @@ export default function Coffee () {
                   <a
                     href={CFUrl}
                     className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                    style={{backgroundColor: "#FFB258"}}
+                    style={{backgroundColor: "#9244f3"}}
                   >
                     {t('section-third-action')}
                   </a>
@@ -118,7 +118,7 @@ export default function Coffee () {
                   <a
                     href={CFUrl}
                     className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                    style={{backgroundColor: "#FFB258"}}
+                    style={{backgroundColor: "#9244f3"}}
                   >
                   {t('section-fourth-action')}
                   </a>
@@ -208,7 +208,7 @@ export default function Coffee () {
                         name="subscribe"
                         id="mc-embedded-subscribe"
                         className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                        style={{backgroundColor: '#FFB258'}}
+                        style={{backgroundColor: '#9244f3'}}
                     />
                     </div>
                   </form>
