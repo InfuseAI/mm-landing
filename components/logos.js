@@ -6,10 +6,13 @@ export default function Logos () {
   return (
     <div className="bg-gray-100">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <p className="text-center text-lg font-semibold text-gray-500 tracking-wide">
-          {t('section-intro')}
-        </p>
+        {t('section-intro').split('\n').map((text, i) => (
+          <p key={i} className="text-center text-lg font-semibold text-gray-500 tracking-wide">
+            {text}
+          </p>
+        ))}
       </div>
     </div>
   )
 }
+
