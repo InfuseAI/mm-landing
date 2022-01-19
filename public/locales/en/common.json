@@ -1,8 +1,8 @@
 {
   "title": "PipeRider",
-  "logo": "/InfuseAI_icon_32.png",
+  "logo": "/pipe_rider_fake_logo.svg",
   "section-hero-title": "PipeRider Beta",
-  "section-hero-img": "/hero-image.jpg",
+  "section-hero-img": "/hero-image.png",
   "section-hero-img-alt": "Photo by Kevin Bhagat on Unsplash",
   "section-hero-content": "Pipeline-wide Change Management for datasets, experiments, models, and deployments.",
   "section-hero-action": "Subscribe",

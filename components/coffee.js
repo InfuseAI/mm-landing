@@ -20,7 +20,7 @@ export default function Coffee () {
             <div>
               <div>
                 <span className="h-12 w-12 rounded-md flex items-center justify-center"
-                  style={{backgroundColor: "#365abd"}}
+                  style={{backgroundColor: "FFB258"}}
                 >
                   <InboxIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
@@ -36,7 +36,7 @@ export default function Coffee () {
                   <a
                     href={CFUrl}
                     className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                    style={{backgroundColor: "#365abd"}}
+                    style={{backgroundColor: "#FFB258"}}
                   >
                   {t('section-secondary-action')}
                   </a>
@@ -61,7 +61,7 @@ export default function Coffee () {
             <div>
               <div>
                 <span className="h-12 w-12 rounded-md flex items-center justify-center"
-                  style={{backgroundColor: "#365abd"}}
+                  style={{backgroundColor: "FFB258"}}
                 >
                   <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
@@ -77,7 +77,7 @@ export default function Coffee () {
                   <a
                     href={CFUrl}
                     className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                    style={{backgroundColor: "#365abd"}}
+                    style={{backgroundColor: "#FFB258"}}
                   >
                     {t('section-third-action')}
                   </a>
@@ -102,7 +102,7 @@ export default function Coffee () {
             <div>
               <div>
                 <span className="h-12 w-12 rounded-md flex items-center justify-center"
-                  style={{backgroundColor: "#365abd"}}
+                  style={{backgroundColor: "FFB258"}}
                 >
                   <InboxIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
@@ -118,7 +118,7 @@ export default function Coffee () {
                   <a
                     href={CFUrl}
                     className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                    style={{backgroundColor: "#365abd"}}
+                    style={{backgroundColor: "#FFB258"}}
                   >
                   {t('section-fourth-action')}
                   </a>
@@ -143,7 +143,7 @@ export default function Coffee () {
             <div>
               <div>
                 <span className="h-12 w-12 rounded-md flex items-center justify-center"
-                  style={{backgroundColor: "#365abd"}}
+                  style={{backgroundColor: "FFB258"}}
                 >
                   <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
@@ -208,7 +208,7 @@ export default function Coffee () {
                         name="subscribe"
                         id="mc-embedded-subscribe"
                         className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                        style={{backgroundColor: '#365abd'}}
+                        style={{backgroundColor: '#FFB258'}}
                     />
                     </div>
                   </form>
