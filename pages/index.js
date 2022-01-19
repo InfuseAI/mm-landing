@@ -21,7 +21,7 @@ export default function Home () {
         <meta property="og:image" content="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"/>
 
         <script type="text/javascript" src="/hotjar.js" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L0B04EW6NF" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4HR0H1QVB" />
         <script type="text/javascript" src="/ga.js" />
       </Head>
 
