@@ -5,11 +5,10 @@ import {
   UserGroupIcon
 } from '@heroicons/react/outline'
 
-import { useTranslation } from 'next-i18next';
-
-import CFUrl from './cf'
+import { useTranslation, Trans } from 'next-i18next';
 
 export default function Coffee () {
+  const CFUrl = '#subscribe-form';
   const { t } = useTranslation('common');
   return (
     <div className="relative pt-16 pb-32 overflow-hidden">
@@ -139,6 +138,40 @@ export default function Coffee () {
       </div>
       <div className="mt-24">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-1">
+            <div>
+              <div className="mt-6">
+                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                  {t('section-why-title-1')}
+                </h2>
+                <p className="mt-4 text-lg text-gray-500">
+                  <Trans
+                    i18nKey='section-why-content-1'
+                    components={{ ul: <ul className='pl-5'/>, li: <li style={{listStyle: 'disc'}}/> }}
+                  />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+            <div>
+              <div className="mt-6">
+                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                  {t('section-why-title-2')}
+                </h2>
+                <p className="mt-4 text-lg text-gray-500">
+                  <Trans
+                    i18nKey='section-why-content-2'
+                    components={{ ul: <ul className='pl-5'/>, li: <li style={{listStyle: 'disc'}}/> }}
+                  />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="mt-24">
+        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
               <div>
@@ -148,7 +181,7 @@ export default function Coffee () {
                   <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
-              <div className="mt-6">
+              <div id='subscribe-form' className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                   {t('section-subscribe-title')}
                 </h2>
