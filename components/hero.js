@@ -108,13 +108,23 @@ export default function Hero () {
                 {t('section-hero-content')}
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <a
-                    href={CFUrl}
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10"
+                <div>
+                  <form
+                    action="https://infuseai.us1.list-manage.com/subscribe/post?u=2b18366427f11835f05f68aeb&amp;id=b82bfd845e"
+                    method="post"
+                    id="mc-embedded-subscribe-form"
+                    name="mc-embedded-subscribe-form"
+                    target="_blank"
+                    novalidate
                   >
-                    {t('section-hero-action')}
-                  </a>
+                    <input type="email" name="EMAIL" placeholder='Email'
+                    className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow mr-3"
+                  />
+                    <input type="submit" value={t('section-hero-action')} name="subscribe" id="mc-embedded-subscribe"
+                    className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
+                    style={{backgroundColor: '#365abd'}}
+                  />
+                  </form>
                 </div>
               </div>
             </div>
