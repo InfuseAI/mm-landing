@@ -23,7 +23,7 @@ export default function Hero () {
                     <a href="https://www.infuseai.io/">
                       <span className="sr-only">{t('title')}</span>
                       <img
-                        className="h-8 w-auto sm:h-10"
+                        className="h-16 w-auto"
                         src={t('logo')}
                       />
                     </a>

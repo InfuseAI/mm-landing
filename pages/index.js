@@ -16,9 +16,9 @@ export default function Home () {
     <div>
       <Head>
         <title>{t('title')}</title>
-        <link rel="shortcut icon" href="/PrimeHub_icon_32.png" />
+        <link rel="shortcut icon" href={t('favicon')} />
         <meta property="og:website" content="website" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"/>
+        <meta property="og:image" content={t('og-image')}/>
 
         <script type="text/javascript" src="/hotjar.js" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4HR0H1QVB" />
