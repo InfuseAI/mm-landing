@@ -229,7 +229,7 @@ export default function Coffee () {
                         type="url"
                         name="MMERGE3"
                         id="mce-MMERGE3"
-                        placeholder="LinkedIn Profile URL"
+                        placeholder="LinkedIn Profile URL (Optional)"
                         className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow"
                         style={{width: 300}}
                       />
