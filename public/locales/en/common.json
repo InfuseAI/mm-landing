@@ -4,7 +4,7 @@
   "favicon": "/pipe_rider_fake_logo.svg",
   "og-image": "https://piperider.vercel.app/pipe_rider_fake_logo.svg",
   "section-hero-title": "PipeRider Beta",
-  "section-hero-img": "/hero-image.png",
+  "section-hero-img": "/change-timeline.png",
   "section-hero-img-alt": "Photo by Kevin Bhagat on Unsplash",
   "section-hero-content": "Pipeline-wide Change Management for datasets, experiments, models, and deployments.",
   "section-hero-action": "Join as Beta User",
