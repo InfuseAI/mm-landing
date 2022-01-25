@@ -199,7 +199,7 @@ export default function Coffee () {
                         type="email"
                         name="EMAIL"
                         id="mce-EMAIL"
-                        placeholder="Email Address"
+                        placeholder={t('section-subscribe-form.email')}
                         className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow"
                         style={{width: 300}}
                       />
@@ -209,7 +209,7 @@ export default function Coffee () {
                         type="text"
                         name="FNAME"
                         id="mce-FNAME"
-                        placeholder="First Name"
+                        placeholder={t('section-subscribe-form.firstName')}
                         className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow"
                         style={{width: 300}}
                       />
@@ -219,7 +219,7 @@ export default function Coffee () {
                         type="text"
                         name="LNAME"
                         id="mce-LNAME"
-                        placeholder="Last Name"
+                        placeholder={t('section-subscribe-form.lastName')}
                         className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow"
                         style={{width: 300}}
                       />
@@ -229,7 +229,7 @@ export default function Coffee () {
                         type="url"
                         name="MMERGE3"
                         id="mce-MMERGE3"
-                        placeholder="LinkedIn Profile URL (Optional)"
+                        placeholder={t('section-subscribe-form.linkedin')}
                         className="inline-flex bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow"
                         style={{width: 300}}
                       />

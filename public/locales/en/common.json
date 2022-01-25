@@ -31,5 +31,11 @@
   "section-subscribe-title": "Keep me updated about PipeRider",
   "section-subscribe-img": "./richard-horvath-cPccYbPrF-A-unsplash.jpg",
   "section-subscribe-img-alt": "Third Fourth Alt",
-  "section-subscribe-action": "Get Early Access"
+  "section-subscribe-action": "Get Early Access",
+  "section-subscribe-form": {
+    "email": "Email Address (Required)",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "linkedin": "LinkedIn Profile Link"
+  }
 }
