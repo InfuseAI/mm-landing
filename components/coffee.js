@@ -39,7 +39,17 @@ export default function Coffee () {
                   >
                   {t('section-secondary-action')}
                   </a>
+
+                  <a
+                    href= 'https://blog.infuseai.io/piperider-hitchhike-a-ride-at-any-point-of-machine-learning-pipeline-5dc7e50df974'
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md text-white hover:from-purple-700 hover:to-indigo-700"
+                    style={{color: "#999999"}}
+                    target="_blank"
+                  >
+                    See How it Works
+                  </a>
                 </div>
+
               </div>
             </div>
           </div>
